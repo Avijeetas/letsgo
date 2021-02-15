@@ -20,14 +20,14 @@ func ReadUser() []string {
 
 	scanner := bufio.NewScanner(os.Stdin)
 
-	{
+	
 		fmt.Print("Enter the Text : ")
 
 		scanner.Scan()
 
 		text := scanner.Text()
 		arr = append(arr, text)
-	}
+	
 	return arr
 }
 func ReadFile() []string {
