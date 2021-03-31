@@ -1,7 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    int a;
+    int adasdasd,a;
+
+
+
+
     cin>>a;
     cout<<a;
 }
